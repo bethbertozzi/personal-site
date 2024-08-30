@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail } from "lucide-react";
+import { Github, Mail, LinkedinIcon } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -10,6 +10,12 @@ const socials = [
 		href: "mailto:beth.bertozzi@gmail.com",
 		label: "Email",
 		handle: "beth.bertozzi@gmail.com",
+	},
+	{
+		icon: <LinkedinIcon size={20} />,
+		href: "https://www.linkedin.com/in/bethbertozzi/",
+		label: "LinkedIn",
+		handle: "Beth Bertozzi",
 	},
 	{
 		icon: <Github size={20} />,
