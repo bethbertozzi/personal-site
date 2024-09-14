@@ -16,9 +16,10 @@ export const metadata: Metadata = {
       "Software Engineer",
     url: "https://beth.codes",
     siteName: "beth.codes",
+    // TODO: add site image
     // images: [
     //   {
-    //     url: "https://chronark.com/og.png",
+    //     url: "",
     //     width: 1920,
     //     height: 1080,
     //   },
