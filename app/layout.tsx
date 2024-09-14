@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "beth bertozzi",
     template: "%s | chronark.com",
   },
-  description: "Fullstack Engineer",
+  description: "Software Engineer",
   openGraph: {
     title: "beth.codes",
     description:
-      "Fullstack Engineer",
+      "Software Engineer",
     url: "https://beth.codes",
     siteName: "beth.codes",
     // images: [
