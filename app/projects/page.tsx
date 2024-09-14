@@ -86,7 +86,7 @@ export default async function ProjectsPage() {
                   {featured.description}
                 </p>
                 <div className="absolute bottom-4 md:bottom-8">
-                  <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block" mt-4>
+                  <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block mt-4">
                     Read more <span aria-hidden="true">&rarr;</span>
                   </p>
                 </div>
@@ -104,7 +104,7 @@ export default async function ProjectsPage() {
         </div>
         <div className="hidden w-full h-px md:block bg-zinc-800" />
 
-        {/* <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
           <div className="grid grid-cols-1 gap-4">
             {sorted
               .filter((_, i) => i % 3 === 0)
@@ -132,7 +132,7 @@ export default async function ProjectsPage() {
                 </Card>
               ))}
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
